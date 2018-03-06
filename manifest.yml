@@ -1,0 +1,6 @@
+---
+applications:
+- name: blockchaintestd0623672
+  memory: 1024M
+  command: node main.js
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack
